@@ -1,11 +1,13 @@
 var app = angular.module('myApp', []);
 app.controller('myCtrl', ['$scope', function ($scope) {
         $scope.projects = [{
+                detailid: '#portfolioModal1',
                 projectName: 'MK SPORT',
                 projectType: 'Bán dụng cụ thể thao',
                 projectImage: 'img/duan/impulse.png',
                 link: 'http://dochoithethao.somee.com'
             }, {
+                detailid: '#portfolioModal2',
                 projectName: 'Challenge Team',
                 projectType: 'Trang giới thiệu nhóm Challenge Team',
                 projectImage: 'img/duan/challengeteam.png',

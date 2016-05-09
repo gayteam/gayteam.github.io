@@ -1,5 +1,5 @@
 body{background-color: #DCDCDC;overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif}
-.text-muted{color:black}
+.text-muted{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;color:black}
 .text-primary{color:#fed136}
 p{font-size:14px;line-height:1.75}
 p.large{font-size:16px}

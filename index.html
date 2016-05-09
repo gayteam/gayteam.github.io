@@ -112,7 +112,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat='project in projects'>
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <a href="#{{project.detailid}}" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x" style="color: gold;"></i>
@@ -147,7 +147,7 @@
                                             <span>Tôi là Binh tôi rất mạnh mẽ.</span><br>
                                             <span>Saiha-sensai-sama-lord-master-king.</span>
                                         </div>
-                                        <img class="img-circle img-responsive" src="img/header-bg.jpg" alt="" >
+                                        <img class="img-circle img-responsive" src="img/member/hinhbinh.jpg" alt="" >
                                     </div>
 
                                 </div>
@@ -168,7 +168,7 @@
                                             <span>Tôi là Triết tôi rất mạnh mẽ.</span><br>
                                             <span>Saiha-sensai-sama-lord-master-king.</span>
                                         </div>
-                                        <img class="img-circle img-responsive" src="img/header-bg.jpg" alt="" >
+                                        <img class="img-circle img-responsive" src="img/member/hinhtriet.jpg" alt="" >
                                     </div>
 
                                 </div>
@@ -189,7 +189,7 @@
                                             <span>Tôi là Trà tôi rất mạnh mẽ.</span><br>
                                             <span>Saiha-sensai-sama-lord-master-king.</span>
                                         </div>
-                                        <img class="img-circle img-responsive" src="img/header-bg.jpg" alt="" >
+                                        <img class="img-circle img-responsive" src="img/member/hinhtra.jpg" alt="" >
                                     </div>
 
                                 </div>
@@ -587,21 +587,6 @@
         <script src="js/jqBootstrapValidation.js"></script>
         <script src="js/contact_me.js"></script>
         <script src="js/agency.js"></script>
-
-        <!--        <script>
-                                                    jQuery(document).ready(function ($) {
-                                                        $('.help-button').on('click', function (e) {
-                                                            e.preventDefault();
-                                                            $(this).siblings('.info-box').show();
-                                                        });
-        
-                                                        $('.close-button').on('click', function (e) {
-                                                            e.preventDefault();
-                                                            $(this).parents('.info-box').hide();
-                                                        });
-        
-                                                    });
-                </script>-->
 
     </body>
 
